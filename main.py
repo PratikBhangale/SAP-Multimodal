@@ -26,10 +26,10 @@ astra_db_api_endpoint = os.getenv("ASTRA_DB_API_ENDPOINT")
 astra_db_application_token = os.getenv("ASTRA_DB_APPLICATION_TOKEN")
 # Remove the export statements and set environment variables using os.environ
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"  # Replace <your-api-key> with the actual key
+os.environ["LANGSMITH_API_KEY"] = ""  # Replace <your-api-key> with the actual key
 os.environ["LANGSMITH_TRACING"] = "true"
 os.environ["LANGSMITH_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGSMITH_PROJECT"] = "SAP_RAG"
+os.environ["LANGSMITH_PROJECT"] = ""
 
 
 
